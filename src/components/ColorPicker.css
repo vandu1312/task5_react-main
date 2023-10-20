@@ -1,0 +1,40 @@
+/* ColorPicker.css */
+
+.color-picker {
+  padding: 20px;
+  border: 1px solid #ccc;
+  width: 300px; /* Increased width to accommodate more colors */
+}
+
+.color-list {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.color-square {
+  width: 30px;
+  height: 30px;
+  margin: 5px;
+  cursor: pointer;
+}
+
+.color-name {
+  font-size: 14px;
+}
+
+/* Define color classes with their respective background colors */
+.red { background-color: red; }
+.green { background-color: green; }
+.blue { background-color: blue; }
+.yellow { background-color: yellow; }
+.purple { background-color: purple; }
+.cyan { background-color: cyan; }
+.magenta { background-color: magenta; }
+.orange { background-color: orange; }
+.pink { background-color: pink; }
+.teal { background-color: teal; }
+.navy { background-color: navy; }
+.brown { background-color: brown; }
+.lime { background-color: lime; }
+.indigo { background-color: indigo; }
+.violet { background-color: violet; }
